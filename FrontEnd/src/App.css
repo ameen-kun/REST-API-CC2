@@ -1,0 +1,143 @@
+body{
+  background-color: black;
+  color:white;
+}
+.head{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  border-bottom: 1px solid grey;
+}
+.home-container{
+  padding:10px;
+}
+.cont{
+  margin:10px;
+  margin-top: 20px;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+}
+.imgc{
+  padding:20px;
+}
+img{
+  width:100%;
+  height:100%;
+  border-radius: 50px;
+}
+.dcont{
+  padding:10px;
+  margin:10px;
+}
+.dcontainer{
+  border: 1px solid white;
+  padding:10px;
+  width:400px;
+}
+.ycontainer{
+  border: 1px solid white;
+  padding:10px;
+  width:340px;
+}
+.tcontainer{
+  border: 1px solid white;
+  padding:10px;
+  width:400px;
+}
+.ccontainer{
+  border: 1px solid white;
+  padding:10px;
+  width:220px;
+}
+.dtitle{
+  margin:0
+}
+
+.dval,.yval,.tval,.cval{
+  margin-left: 50px;
+  font-size: large;
+}
+.yval,.tval{
+  font-size: x-large;
+}
+.dhead{
+  font-size: large;
+}
+.cval::first-letter,.dval::first-letter,.dhead::first-letter,.yhead::first-letter,.thead::first-letter,.chead::first-letter{
+  font-size: xx-large;
+}
+label{
+  width:100px;
+  font-size: larger;
+}
+label::first-letter{
+  font-size: xx-large;
+}
+input{
+  border: 0;
+  margin:10px;
+  margin-left:40px;
+  padding:10px;
+  width:300px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.form{
+  border:1px solid white;
+  border-radius: 1em;
+  padding:20px;
+  margin:50px;
+  height:710px
+}
+.formcon{
+  display: flex;
+  justify-content: center;
+}
+button{
+  width:150px;
+  padding:20px;
+  margin:20px;
+  cursor:pointer;
+}
+a{
+  text-decoration: none;
+  color:white
+}
+.editkeys{
+  display: flex;
+  justify-content: center;
+}
+#delete{
+  background-color: red;
+  color:white
+}
+#update{
+  background-color: orange;
+  color: black;
+}
+#update:hover,#delete:hover,#insert:hover{
+  background-color:black;
+  color:white;
+  border:1px solid white;
+}
+#insert{
+  color:white;
+  background-color:#2c3da4;
+}
+.addb{
+  height:80px
+}
+.imgl{
+  padding:30px;
+  width:300px
+}
+.updbutt{
+  background-color: red;
+  color:white;
+}
+.updbutt:hover{
+  background-color: black;
+  color:white;
+  border: 1px solid white;
+}
